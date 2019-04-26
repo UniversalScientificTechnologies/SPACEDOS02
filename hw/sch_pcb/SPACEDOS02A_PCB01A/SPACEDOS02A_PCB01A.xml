@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Chroust\stare\UST_G\SPACEDOS01\hw\sch_pcb\SPACEDOS01B_PCB01A\SPACEDOS01B_PCB01A.sch</source>
+    <date>07.03.2019 10:16:16</date>
+    <tool>Eeschema (6.0.0-rc1-dev-205-gc0615c5ef)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>NAME</title>
+        <company>Mlab www.mlab.cz</company>
+        <rev>REV</rev>
+        <date>%F</date>
+        <source>SPACEDOS01B_PCB01A.sch</source>
+        <comment number="1" value="VERSION"/>
+        <comment number="2" value="Short description \nTwo lines are maximum"/>
+        <comment number="3" value="nickname &lt;email@example.com&gt;"/>
+        <comment number="4" value="BSD"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/cpu/" tstamps="/5C4AEDD8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>cpu.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/power/" tstamps="/5C69BCB4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="M1">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4AF3DA</tstamp>
+    </comp>
+    <comp ref="M2">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>549D7628</tstamp>
+    </comp>
+    <comp ref="M3">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3D3F17</tstamp>
+    </comp>
+    <comp ref="M4">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3D3F18</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>OPA2314</value>
+      <footprint>Mlab_IO:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="MLAB_IO" part="AD8692" description="Op amp."/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B39C1E6</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>OPA2314</value>
+      <footprint>Mlab_IO:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="MLAB_IO" part="AD8692" description="Op amp."/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B39C25C</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4u7</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B39C727</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1pFNP0 251R15S1R0AV4E</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3A36AE</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10M</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3A3729</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3A37A3</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3A3816</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>4k7</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3ACFA9</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>3n3</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3AD087</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3AD48D</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3AD5AB</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3AD63B</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TS7211</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>http://www.analog.com/media/en/technical-documentation/data-sheets/OP179_279.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="OP179GRT" description="Single Rail-to-Rail High Output Current Operational Amplifiers, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3AFE4C</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>TS5A4594</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <libsource lib="MLAB_IO" part="TS5A4594" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3B85BF</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3BA8C4</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>2k2</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3BD0FF</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1nF/NP0</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3BD161</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>4u7</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3E1723</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>2n2</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3E8E3E</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>4k7</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3E8EB4</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>470R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B46AAEC</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22uF</value>
+      <footprint>Mlab_C:TantalC_SizeC_Reflow</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B46AE4B</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B46AED9</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B46F2E3</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B46F367</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>470R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4BB90E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4BB914</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4BB91A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>470R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4C8409</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4C840F</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4C8415</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>470R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4C8432</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4C8438</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B4C843E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>ISL21080DIH312Z-TK  1V25</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.intersil.com/content/dam/Intersil/documents/fn75/fn7599.pdf</datasheet>
+      <libsource lib="Reference_Voltage" part="ISL21070CIH320Z-TK" description="2.0V 25μA Micropower Voltage Reference, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3DC106</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3DC133</tstamp>
+    </comp>
+    <comp ref="M6">
+      <value>BMI-S-210-F</value>
+      <footprint>Mlab_Mechanical:BMI-S-210-F</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B47DBA2</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B690004</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>4k7</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C613D02</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C614D24</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>4k7</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C6165DE</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C616680</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>4k7</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C61685E</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>1uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C616902</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C52C88C</tstamp>
+    </comp>
+    <comp ref="M8">
+      <value>BMI-S-204-F</value>
+      <footprint>RF_Shielding:Laird_Technologies_BMI-S-204-F_32.00x32.00mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C71374D</tstamp>
+    </comp>
+    <comp ref="M9">
+      <value>BMI-S-204-F</value>
+      <footprint>RF_Shielding:Laird_Technologies_BMI-S-204-F_32.00x32.00mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C81F263</tstamp>
+    </comp>
+    <comp ref="M10">
+      <value>BMI-S-204-F</value>
+      <footprint>RF_Shielding:Laird_Technologies_BMI-S-204-F_32.00x32.00mm</footprint>
+      <libsource lib="MLAB_MECHANICAL" part="HOLE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C81F2E9</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>S11773-02</value>
+      <footprint>Mlab_D:HAMAMATSU_S11773-02</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Photo" description="Photodiode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C80A3E9</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>ATMEGA1284P-AU</value>
+      <footprint>Package_QFP:TQFP-44_10x10mm_P0.8mm</footprint>
+      <datasheet>http://www.atmel.com/Images/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf</datasheet>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="ATMEGA1284P-AU-atmel-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B17AB5A</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B1D7340</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B1D748A</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>4u7</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B1E158F</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="R-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B1E1A11</tstamp>
+    </comp>
+    <comp ref="J19">
+      <value>HEADER_2x01_PARALLEL</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B1E7269</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B1F6794</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B1F69A6</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B1F6A02</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10uH - LQH32CN100K23L</value>
+      <footprint>Mlab_R:SMD-1210</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="L-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B1F6A96</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B1F6B7D</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="R-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B34D4AA</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="R-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B34D7C9</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>PCF85263A</value>
+      <footprint>Mlab_IO:TSSOP-10_3x3mm_Pitch0.5mm</footprint>
+      <libsource lib="MLAB_IO" part="PCF85263A" description="RTC"/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B36B76C</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>ABS07-120-32.768KHZ-T</value>
+      <footprint>Mlab_XTAL:ABS07</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="Crystal-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B36B778</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B38BB8A</tstamp>
+    </comp>
+    <comp ref="J22">
+      <value>HEADER_2x03</value>
+      <footprint>Mlab_Pin_Headers:SMD_2x03</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x03" description="2x03 2.54 mm pitch header"/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B253FC7</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B36FE27</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B38C9AC</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5B3A9D6D</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>HEADER_1x01</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_1x01" description="1x01 2.54 mm pitch header"/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5C6A22D0</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>HEADER_1x01</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_1x01" description="1x01 2.54 mm pitch header"/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5C6A319F</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>HEADER_1x01</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_1x01" description="1x01 2.54 mm pitch header"/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5C6A33C1</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>HEADER_1x01</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_1x01" description="1x01 2.54 mm pitch header"/>
+      <sheetpath names="/cpu/" tstamps="/5C4AEDD8/"/>
+      <tstamp>5C6A3943</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>DFE252012P-4R7M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <sheetpath names="/power/" tstamps="/5C69BCB4/"/>
+      <tstamp>5C6D0EA6</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>TPS613222ADBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <libsource lib="MLAB_IO" part="TPS61322xA" description="menic SOT23-5"/>
+      <sheetpath names="/power/" tstamps="/5C69BCB4/"/>
+      <tstamp>5C6D0EAC</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/power/" tstamps="/5C69BCB4/"/>
+      <tstamp>5C6D0EB3</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/power/" tstamps="/5C69BCB4/"/>
+      <tstamp>5C6D0EB9</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/power/" tstamps="/5C69BCB4/"/>
+      <tstamp>5C6D0EE7</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>NFM21PC105-1uF</value>
+      <footprint>Mlab_L:FIR_0805</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb</datasheet>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="EMI_Filter_C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/power/" tstamps="/5C69BCB4/"/>
+      <tstamp>5C6D0EF9</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/power/" tstamps="/5C69BCB4/"/>
+      <tstamp>5C6D0EFF</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>BZV55C-5,6V</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="D-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/power/" tstamps="/5C69BCB4/"/>
+      <tstamp>5C589333</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>NFM21PC105-1uF</value>
+      <footprint>Mlab_L:FIR_0805</footprint>
+      <datasheet>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb</datasheet>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="EMI_Filter_C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/power/" tstamps="/5C69BCB4/"/>
+      <tstamp>5C589354</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/power/" tstamps="/5C69BCB4/"/>
+      <tstamp>5C589368</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>2R2</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="Polyfuse-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue-SPACEDOS01B_PCB01A-rescue" description=""/>
+      <sheetpath names="/power/" tstamps="/5C69BCB4/"/>
+      <tstamp>5C58939A</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>HEADER_2x01_PARALLEL</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <sheetpath names="/power/" tstamps="/5C69BCB4/"/>
+      <tstamp>5C5893A6</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>HEADER_2x01_PARALLEL</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL" description="2x01 2.54 mm pitch header, 2 pins next to each other are connected"/>
+      <sheetpath names="/power/" tstamps="/5C69BCB4/"/>
+      <tstamp>5C594C24</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue" description=""/>
+      <sheetpath names="/power/" tstamps="/5C69BCB4/"/>
+      <tstamp>5C5FB0D4</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>HEADER_2x01</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <libsource lib="MLAB_HEADER" part="HEADER_2x01" description="2x01 2.54 mm pitch header"/>
+      <sheetpath names="/power/" tstamps="/5C69BCB4/"/>
+      <tstamp>5C82097F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="OP179GRT">
+      <description>Single Rail-to-Rail High Output Current Operational Amplifiers, SOT-23-5</description>
+      <docs>http://www.analog.com/media/en/technical-documentation/data-sheets/OP179_279.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OP179GRT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="V+" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="V-" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Photo">
+      <description>Photodiode</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Photo</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_1x01">
+      <description>1x01 2.54 mm pitch header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_1x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_2x01">
+      <description>2x01 2.54 mm pitch header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_2x01_PARALLEL">
+      <description>2x01 2.54 mm pitch header, 2 pins next to each other are connected</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x01_PARALLEL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_HEADER" part="HEADER_2x03">
+      <description>2x03 2.54 mm pitch header</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_2x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_IO" part="AD8692">
+      <description>Op amp.</description>
+      <docs>op_amps/tl071.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD8692</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="passive"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_IO" part="PCF85263A">
+      <description>RTC</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCF85263A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OSCI" type="input"/>
+        <pin num="2" name="OSCO" type="input"/>
+        <pin num="3" name="VBAT" type="input"/>
+        <pin num="4" name="TS" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="SDA" type="input"/>
+        <pin num="7" name="SCL" type="input"/>
+        <pin num="8" name="CLK" type="input"/>
+        <pin num="9" name="INTA" type="input"/>
+        <pin num="10" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_IO" part="TPS61322xA">
+      <description>menic SOT23-5</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS61322xA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="unspc"/>
+        <pin num="2" name="GND" type="unspc"/>
+        <pin num="4" name="Vout" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_IO" part="TS5A4594">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TS5A4594</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COM" type="passive"/>
+        <pin num="2" name="NO" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="IN" type="BiDi"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MLAB_MECHANICAL" part="HOLE">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">HOLE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="ISL21070DIH306Z-TK">
+      <aliases>
+        <alias>ISL21070CIH320Z-TK</alias>
+        <alias>ISL21070CIH325Z-TK</alias>
+      </aliases>
+      <description>0.6V 25μA Micropower Voltage Reference, SOT-23</description>
+      <docs>http://www.intersil.com/content/dam/Intersil/documents/fn75/fn7599.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ISL21070DIH306Z-TK</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="Vout" type="power_out"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPACEDOS01B_PCB01A-rescue" part="ATMEGA1284P-AU-atmel-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA1284P-AU-atmel-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue</field>
+        <field name="Footprint">TQFP44</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(PCINT13/MOSI)PB5" type="BiDi"/>
+        <pin num="2" name="(PCINT14/MISO)PB6" type="BiDi"/>
+        <pin num="3" name="(PCINT15/SCK)PB7" type="BiDi"/>
+        <pin num="4" name="~RESET" type="input"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="XTAL2" type="BiDi"/>
+        <pin num="8" name="XTAL1" type="BiDi"/>
+        <pin num="9" name="(PCINT24/RXD0)PD0" type="BiDi"/>
+        <pin num="10" name="(PCINT25/TXD0)PD1" type="BiDi"/>
+        <pin num="11" name="(PCINT26/RXD1/INT0)PD2" type="BiDi"/>
+        <pin num="12" name="(PCINT27/TXD1/INT1)PD3" type="BiDi"/>
+        <pin num="13" name="(PCINT28/XCK1/OC1B)PD4" type="BiDi"/>
+        <pin num="14" name="(PCINT294/OC1A)PD5" type="BiDi"/>
+        <pin num="15" name="(PCINT30/OC2B/ICP)PD6" type="BiDi"/>
+        <pin num="16" name="(PCINT31/OC2A)PD7" type="BiDi"/>
+        <pin num="17" name="VCC" type="power_in"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="(PCINT16/SCL)PC0" type="BiDi"/>
+        <pin num="20" name="(PCINT17/SDA)PC1" type="BiDi"/>
+        <pin num="21" name="(PCINT18/TCK)PC2" type="BiDi"/>
+        <pin num="22" name="(PCINT19/TMS)PC3" type="BiDi"/>
+        <pin num="23" name="(PCINT20/TDO)PC4" type="BiDi"/>
+        <pin num="24" name="(PCINT21/TDI)PC5" type="BiDi"/>
+        <pin num="25" name="(PCINT22/TOSC1)PC6" type="BiDi"/>
+        <pin num="26" name="(PCINT23/TOSC2)PC7" type="BiDi"/>
+        <pin num="27" name="AVCC" type="power_in"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="AREF" type="power_in"/>
+        <pin num="30" name="(PCINT7/ADC7)PA7" type="BiDi"/>
+        <pin num="31" name="(PCINT6/ADC6)PA6" type="BiDi"/>
+        <pin num="32" name="(PCINT5/ADC5)PA5" type="BiDi"/>
+        <pin num="33" name="(PCINT4/ADC4)PA4" type="BiDi"/>
+        <pin num="34" name="(PCINT3/ADC3)PA3" type="BiDi"/>
+        <pin num="35" name="(PCINT2/ADC2)PA2" type="BiDi"/>
+        <pin num="36" name="(PCINT1/ADC1)PA1" type="BiDi"/>
+        <pin num="37" name="(PCINT0/ADC0)PA0" type="BiDi"/>
+        <pin num="38" name="VCC" type="power_in"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="(PCINT8/T0/XCK)PB0" type="BiDi"/>
+        <pin num="41" name="(PCINT9/CLKO/T1)PB1" type="BiDi"/>
+        <pin num="42" name="(PCINT10/AIN0/INT2)PB2" type="BiDi"/>
+        <pin num="43" name="(PCINT11/AIN1/OC0)PB3" type="BiDi"/>
+        <pin num="44" name="(PCINT12/OC0B/~SS~)PB4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPACEDOS01B_PCB01A-rescue" part="C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPACEDOS01B_PCB01A-rescue" part="Crystal-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPACEDOS01B_PCB01A-rescue" part="D-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPACEDOS01B_PCB01A-rescue" part="EMI_Filter_C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EMI_Filter_C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPACEDOS01B_PCB01A-rescue" part="L-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPACEDOS01B_PCB01A-rescue" part="Polyfuse-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue-SPACEDOS01B_PCB01A-rescue">
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue-SPACEDOS01B_PCB01A-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPACEDOS01B_PCB01A-rescue" part="R-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:/Chroust/stare/KiCAD_G/kicad-symbols/Amplifier_Operational.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:/Chroust/stare/KiCAD_G/kicad-symbols/Device.lib</uri>
+    </library>
+    <library logical="MLAB_HEADER">
+      <uri>C:/Chroust/stare/MLAB_G/kicad-mlab/symbols/MLAB_HEADER.lib</uri>
+    </library>
+    <library logical="MLAB_IO">
+      <uri>C:/Chroust/stare/MLAB_G/kicad-mlab/symbols/MLAB_IO.lib</uri>
+    </library>
+    <library logical="MLAB_MECHANICAL">
+      <uri>C:/Chroust/stare/MLAB_G/kicad-mlab/symbols/MLAB_MECHANICAL.lib</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>C:/Chroust/stare/KiCAD_G/kicad-symbols/Reference_Voltage.lib</uri>
+    </library>
+    <library logical="SPACEDOS01B_PCB01A-rescue">
+      <uri>C:\Chroust\stare\UST_G\SPACEDOS01\hw\sch_pcb\SPACEDOS01B_PCB01A/SPACEDOS01B_PCB01A-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J2" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="M6" pin="1"/>
+      <node ref="C50" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="M9" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="M10" pin="1"/>
+      <node ref="M8" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="M1" pin="1"/>
+      <node ref="M3" pin="1"/>
+      <node ref="M4" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="M2" pin="1"/>
+      <node ref="J22" pin="6"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="U10" pin="18"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U10" pin="39"/>
+      <node ref="U10" pin="6"/>
+      <node ref="U10" pin="28"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U11" pin="5"/>
+      <node ref="C55" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="2" name="/VCC4">
+      <node ref="C14" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="3" name="/VCC3">
+      <node ref="C13" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="4" name="/VCC1">
+      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="5" name="/VCC2">
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="6" name="PA1">
+      <node ref="C24" pin="2"/>
+      <node ref="U10" pin="36"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="7" name="+3V3">
+      <node ref="C47" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U11" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U11" pin="10"/>
+      <node ref="C29" pin="3"/>
+      <node ref="C55" pin="1"/>
+      <node ref="R21" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="U10" pin="17"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C39" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="L3" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J22" pin="2"/>
+      <node ref="U10" pin="5"/>
+      <node ref="U10" pin="38"/>
+    </net>
+    <net code="8" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C21-Pad1)">
+      <node ref="R19" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C21" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C19-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="11" name="Net-(R13-Pad2)">
+      <node ref="U5" pin="2"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="12" name="/A">
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="13" name="+5V">
+      <node ref="R15" pin="2"/>
+      <node ref="C52" pin="3"/>
+      <node ref="C54" pin="1"/>
+    </net>
+    <net code="14" name="/K">
+      <node ref="C24" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C10-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="16" name="Net-(C10-Pad2)">
+      <node ref="C5" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="17" name="PB0">
+      <node ref="U5" pin="4"/>
+      <node ref="U10" pin="40"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="18" name="Net-(C18-Pad1)">
+      <node ref="U4" pin="3"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="19" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="20" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="22" name="Net-(C15-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="23" name="Net-(C18-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="24" name="PA0">
+      <node ref="U10" pin="37"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="25" name="Net-(C15-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="26" name="/cpu/PB5">
+      <node ref="U10" pin="1"/>
+      <node ref="J22" pin="4"/>
+    </net>
+    <net code="27" name="/cpu/RST#_P">
+      <node ref="C43" pin="1"/>
+      <node ref="J22" pin="5"/>
+      <node ref="R23" pin="1"/>
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="28" name="/cpu/PB7">
+      <node ref="J22" pin="3"/>
+      <node ref="U10" pin="3"/>
+    </net>
+    <net code="29" name="/cpu/PB6">
+      <node ref="J22" pin="1"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="30" name="Net-(U11-Pad4)">
+      <node ref="U11" pin="4"/>
+    </net>
+    <net code="31" name="Net-(U11-Pad2)">
+      <node ref="U11" pin="2"/>
+      <node ref="Y2" pin="1"/>
+    </net>
+    <net code="32" name="Net-(U11-Pad1)">
+      <node ref="U11" pin="1"/>
+      <node ref="Y2" pin="2"/>
+    </net>
+    <net code="33" name="/cpu/PC1">
+      <node ref="U10" pin="20"/>
+      <node ref="R20" pin="1"/>
+      <node ref="U11" pin="6"/>
+    </net>
+    <net code="34" name="/cpu/PC0">
+      <node ref="U11" pin="7"/>
+      <node ref="U10" pin="19"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="35" name="Net-(U11-Pad9)">
+      <node ref="U11" pin="9"/>
+    </net>
+    <net code="36" name="Net-(U11-Pad8)">
+      <node ref="U11" pin="8"/>
+    </net>
+    <net code="37" name="Net-(U10-Pad26)">
+      <node ref="U10" pin="26"/>
+    </net>
+    <net code="38" name="Net-(U10-Pad31)">
+      <node ref="U10" pin="31"/>
+    </net>
+    <net code="39" name="Net-(U10-Pad30)">
+      <node ref="U10" pin="30"/>
+    </net>
+    <net code="40" name="Net-(U10-Pad41)">
+      <node ref="U10" pin="41"/>
+    </net>
+    <net code="41" name="Net-(U10-Pad42)">
+      <node ref="U10" pin="42"/>
+    </net>
+    <net code="42" name="Net-(U10-Pad43)">
+      <node ref="U10" pin="43"/>
+    </net>
+    <net code="43" name="Net-(U10-Pad23)">
+      <node ref="U10" pin="23"/>
+    </net>
+    <net code="44" name="Net-(U10-Pad24)">
+      <node ref="U10" pin="24"/>
+    </net>
+    <net code="45" name="Net-(U10-Pad25)">
+      <node ref="U10" pin="25"/>
+    </net>
+    <net code="46" name="Net-(U10-Pad22)">
+      <node ref="U10" pin="22"/>
+    </net>
+    <net code="47" name="Net-(U10-Pad32)">
+      <node ref="U10" pin="32"/>
+    </net>
+    <net code="48" name="Net-(U10-Pad13)">
+      <node ref="U10" pin="13"/>
+    </net>
+    <net code="49" name="Net-(U10-Pad14)">
+      <node ref="U10" pin="14"/>
+    </net>
+    <net code="50" name="Net-(U10-Pad15)">
+      <node ref="U10" pin="15"/>
+    </net>
+    <net code="51" name="Net-(U10-Pad16)">
+      <node ref="U10" pin="16"/>
+    </net>
+    <net code="52" name="Net-(U10-Pad8)">
+      <node ref="U10" pin="8"/>
+    </net>
+    <net code="53" name="Net-(U10-Pad7)">
+      <node ref="U10" pin="7"/>
+    </net>
+    <net code="54" name="Net-(U10-Pad21)">
+      <node ref="U10" pin="21"/>
+    </net>
+    <net code="55" name="Net-(U10-Pad44)">
+      <node ref="U10" pin="44"/>
+    </net>
+    <net code="56" name="/cpu/PD2">
+      <node ref="J5" pin="1"/>
+      <node ref="U10" pin="11"/>
+    </net>
+    <net code="57" name="/cpu/PD3">
+      <node ref="J4" pin="1"/>
+      <node ref="U10" pin="12"/>
+    </net>
+    <net code="58" name="Net-(U10-Pad35)">
+      <node ref="U10" pin="35"/>
+    </net>
+    <net code="59" name="Net-(U10-Pad34)">
+      <node ref="U10" pin="34"/>
+    </net>
+    <net code="60" name="Net-(U10-Pad33)">
+      <node ref="U10" pin="33"/>
+    </net>
+    <net code="61" name="Net-(C40-Pad1)">
+      <node ref="C44" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="U10" pin="29"/>
+    </net>
+    <net code="62" name="/cpu/RX0">
+      <node ref="U10" pin="9"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="63" name="/cpu/TX0">
+      <node ref="U10" pin="10"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="64" name="/cpu/RST#">
+      <node ref="C43" pin="2"/>
+      <node ref="J19" pin="2"/>
+      <node ref="J19" pin="1"/>
+    </net>
+    <net code="65" name="/cpu/AVCC">
+      <node ref="U10" pin="27"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C31" pin="1"/>
+    </net>
+    <net code="66" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="67" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="68" name="/power/3">
+      <node ref="F2" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="69" name="Net-(C29-Pad1)">
+      <node ref="C29" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="F2" pin="1"/>
+      <node ref="C36" pin="1"/>
+    </net>
+    <net code="70" name="Net-(L3-Pad2)">
+      <node ref="U8" pin="1"/>
+      <node ref="L3" pin="2"/>
+    </net>
+    <net code="71" name="Net-(C42-Pad1)">
+      <node ref="C50" pin="1"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C52" pin="1"/>
+      <node ref="U8" pin="4"/>
+    </net>
+  </nets>
+</export>
