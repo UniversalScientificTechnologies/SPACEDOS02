@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:SPACEDOS02A_PCB01A-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1333,46 +1333,14 @@ L MLAB_MECHANICAL:HOLE M8
 U 1 1 5C71374D
 P 9200 750
 F 0 "M8" V 9100 750 60  0000 C CNN
-F 1 "BMI-S-204-F" H 9200 650 60  0001 C CNN
-F 2 "RF_Shielding:Laird_Technologies_BMI-S-204-F_32.00x32.00mm" H 9200 750 60  0001 C CNN
+F 1 "BMI-S-210-F" H 9200 650 60  0001 C CNN
+F 2 "RF_Shielding:Laird_Technologies_BMI-S-210-F_44.00x30.50mm" H 9200 750 60  0001 C CNN
 F 3 "" H 9200 750 60  0000 C CNN
 	1    9200 750 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	9200 650  9200 700 
-$Comp
-L MLAB_MECHANICAL:HOLE M9
-U 1 1 5C81F263
-P 8800 750
-F 0 "M9" V 8700 750 60  0000 C CNN
-F 1 "BMI-S-204-F" H 8800 650 60  0001 C CNN
-F 2 "RF_Shielding:Laird_Technologies_BMI-S-204-F_32.00x32.00mm" H 8800 750 60  0001 C CNN
-F 3 "" H 8800 750 60  0000 C CNN
-	1    8800 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MLAB_MECHANICAL:HOLE M10
-U 1 1 5C81F2E9
-P 9000 750
-F 0 "M10" V 8900 750 60  0000 C CNN
-F 1 "BMI-S-204-F" H 9000 650 60  0001 C CNN
-F 2 "RF_Shielding:Laird_Technologies_BMI-S-204-F_32.00x32.00mm" H 9000 750 60  0001 C CNN
-F 3 "" H 9000 750 60  0000 C CNN
-	1    9000 750 
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9200 650  9000 650 
-Wire Wire Line
-	8800 650  8800 700 
-Connection ~ 9200 650 
-Wire Wire Line
-	9000 700  9000 650 
-Connection ~ 9000 650 
-Wire Wire Line
-	9000 650  8800 650 
 $Comp
 L Device:D_Photo D1
 U 1 1 5C80A3E9

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:SPACEDOS02A_PCB01A-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -954,17 +954,6 @@ SD_VDD
 Text Label 4350 5700 0    60   ~ 0
 SD_VDD
 $Comp
-L Connector:SD_Card J8
-U 1 1 5CC65CD6
-P 2650 5500
-F 0 "J8" H 2650 6165 50  0000 C CNN
-F 1 "SD_Card" H 2650 6074 50  0000 C CNN
-F 2 "Mlab_CON:MCC-SD" H 2650 5500 50  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 2650 5500 50  0001 C CNN
-	1    2650 5500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0126
 U 1 1 5CC665A4
 P 3700 6250
@@ -977,13 +966,6 @@ F 3 "" H 3700 6250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3550 5600 3700 5600
-Wire Wire Line
-	3700 5600 3700 5700
-Wire Wire Line
-	3550 5700 3700 5700
-Connection ~ 3700 5700
-Wire Wire Line
-	3700 5700 3700 6250
 $Comp
 L SPACEDOS02A_PCB01A-rescue:C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue-SPACEDOS01B_PCB01A-rescue C22
 U 1 1 5CC6D8E1
@@ -1139,4 +1121,17 @@ Text Label 6950 2800 0    60   ~ 0
 PB4
 Wire Wire Line
 	6850 2800 6950 2800
+$Comp
+L MLAB_CONNECTORS:SD_Card-Connector J1
+U 1 1 5CCD373E
+P 2650 5500
+F 0 "J1" H 2650 6165 50  0000 C CNN
+F 1 "SD_Card-Connector" H 2650 6074 50  0000 C CNN
+F 2 "Mlab_CON:MCC-SD" H 2850 5850 50  0001 C CNN
+F 3 "" H 2650 5500 50  0001 C CNN
+	1    2650 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5600 3700 6250
 $EndSCHEMATC

@@ -3,4 +3,5 @@
   (lib (name SPACEDOS01A_PCB01A-rescue)(type Legacy)(uri ${KIPRJMOD}/SPACEDOS01A_PCB01A-rescue.lib)(options "")(descr ""))
   (lib (name SPACEDOS01B_PCB01A-rescue)(type Legacy)(uri ${KIPRJMOD}/SPACEDOS01B_PCB01A-rescue.lib)(options "")(descr ""))
   (lib (name SPACEDOS02A_PCB01A-rescue)(type Legacy)(uri ${KIPRJMOD}/SPACEDOS02A_PCB01A-rescue.lib)(options "")(descr ""))
+  (lib (name SPACEDOS02A_PCB01A-cache)(type Legacy)(uri ${KIPRJMOD}/SPACEDOS02A_PCB01A-cache.lib)(options "")(descr ""))
 )
