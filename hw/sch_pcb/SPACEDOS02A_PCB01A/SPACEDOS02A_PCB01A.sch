@@ -15,50 +15,6 @@ Comment3 "nickname <email@example.com>"
 Comment4 "BSD"
 $EndDescr
 $Comp
-L MLAB_MECHANICAL:HOLE M1
-U 1 1 5C4AF3DA
-P 10200 750
-F 0 "M1" V 10100 750 60  0000 C CNN
-F 1 "HOLE" H 10200 650 60  0001 C CNN
-F 2 "Mlab_Mechanical:MountingHole_3mm" H 10200 750 60  0001 C CNN
-F 3 "" H 10200 750 60  0000 C CNN
-	1    10200 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MLAB_MECHANICAL:HOLE M2
-U 1 1 549D7628
-P 10400 750
-F 0 "M2" V 10300 750 60  0000 C CNN
-F 1 "HOLE" H 10400 650 60  0001 C CNN
-F 2 "Mlab_Mechanical:MountingHole_3mm" H 10400 750 60  0001 C CNN
-F 3 "" H 10400 750 60  0000 C CNN
-	1    10400 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MLAB_MECHANICAL:HOLE M3
-U 1 1 5B3D3F17
-P 10600 750
-F 0 "M3" V 10500 750 60  0000 C CNN
-F 1 "HOLE" H 10600 650 60  0001 C CNN
-F 2 "Mlab_Mechanical:MountingHole_3mm" H 10600 750 60  0001 C CNN
-F 3 "" H 10600 750 60  0000 C CNN
-	1    10600 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MLAB_MECHANICAL:HOLE M4
-U 1 1 5B3D3F18
-P 10800 750
-F 0 "M4" V 10700 750 60  0000 C CNN
-F 1 "HOLE" H 10800 650 60  0001 C CNN
-F 2 "Mlab_Mechanical:MountingHole_3mm" H 10800 750 60  0001 C CNN
-F 3 "" H 10800 750 60  0000 C CNN
-	1    10800 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR03
 U 1 1 5B3D3F19
 P 11000 700
@@ -74,13 +30,7 @@ Wire Wire Line
 Wire Wire Line
 	11000 650  10800 650 
 Wire Wire Line
-	10200 650  10200 700 
-Wire Wire Line
-	10400 700  10400 650 
-Connection ~ 10400 650 
-Wire Wire Line
 	10600 700  10600 650 
-Connection ~ 10600 650 
 Wire Wire Line
 	10800 700  10800 650 
 Connection ~ 10800 650 
@@ -88,10 +38,6 @@ Wire Notes Line
 	11100 600  11100 1000
 Text Notes 10100 1000 0    60   ~ 0
 MOUNTING HOLES
-Wire Wire Line
-	10400 650  10200 650 
-Wire Wire Line
-	10600 650  10400 650 
 Wire Wire Line
 	10800 650  10600 650 
 $Comp
@@ -1043,26 +989,18 @@ K
 $Comp
 L MLAB_MECHANICAL:HOLE M6
 U 1 1 5B47DBA2
-P 10000 750
-F 0 "M6" V 9900 750 60  0000 C CNN
-F 1 "BMI-S-210-F" H 10000 650 60  0001 C CNN
-F 2 "Mlab_Mechanical:BMI-S-210-F" H 10000 750 60  0001 C CNN
-F 3 "" H 10000 750 60  0000 C CNN
-	1    10000 750 
+P 10600 750
+F 0 "M6" V 10500 750 60  0000 C CNN
+F 1 "BMI-S-210-F" H 10600 650 60  0001 C CNN
+F 2 "Mlab_Mechanical:BMI-S-210-F" H 10600 750 60  0001 C CNN
+F 3 "" H 10600 750 60  0000 C CNN
+	1    10600 750 
 	0    -1   -1   0   
 $EndComp
-Connection ~ 10200 650 
-Wire Wire Line
-	10000 700  10000 650 
-Wire Wire Line
-	10000 650  10200 650 
 Wire Notes Line
 	9700 600  9700 1000
 Wire Notes Line
-	9700 600  11100 600 
-Wire Notes Line
 	9700 1000 11100 1000
-Connection ~ 10000 650 
 Wire Wire Line
 	6750 4450 7450 4450
 Wire Wire Line
@@ -1331,16 +1269,14 @@ PB0
 $Comp
 L MLAB_MECHANICAL:HOLE M8
 U 1 1 5C71374D
-P 9200 750
-F 0 "M8" V 9100 750 60  0000 C CNN
-F 1 "BMI-S-210-F" H 9200 650 60  0001 C CNN
-F 2 "RF_Shielding:Laird_Technologies_BMI-S-210-F_44.00x30.50mm" H 9200 750 60  0001 C CNN
-F 3 "" H 9200 750 60  0000 C CNN
-	1    9200 750 
+P 10800 750
+F 0 "M8" V 10700 750 60  0000 C CNN
+F 1 "BMI-S-210-F" H 10800 650 60  0001 C CNN
+F 2 "RF_Shielding:Laird_Technologies_BMI-S-210-F_44.00x30.50mm" H 10800 750 60  0001 C CNN
+F 3 "" H 10800 750 60  0000 C CNN
+	1    10800 750 
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9200 650  9200 700 
 $Comp
 L Device:D_Photo D1
 U 1 1 5C80A3E9
@@ -1356,6 +1292,6 @@ Wire Wire Line
 	1900 4350 1900 4750
 Wire Wire Line
 	1000 4350 1500 4350
-Wire Wire Line
-	9200 650  10000 650 
+Wire Notes Line
+	9700 600  11100 600 
 $EndSCHEMATC
