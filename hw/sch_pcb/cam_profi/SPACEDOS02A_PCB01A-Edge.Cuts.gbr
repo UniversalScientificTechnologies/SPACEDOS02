@@ -1,13 +1,14 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.0-rc1-3-g6bb8fde48)*
-G04 #@! TF.CreationDate,2019-05-06T08:53:10+02:00
-G04 #@! TF.ProjectId,SPACEDOS02A_PCB01A,53504143-4544-44f5-9330-32415f504342,REV*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0-rc1-dev-205-gc0615c5ef)*
+G04 #@! TF.CreationDate,2019-05-07T06:14:22+02:00*
+G04 #@! TF.ProjectId,SPACEDOS02A_PCB01A,5350414345444F533032415F50434230,REV*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.0-rc1-3-g6bb8fde48)) date 2019-05-06 08:53:10*
+G04 Created by KiCad (PCBNEW (6.0.0-rc1-dev-205-gc0615c5ef)) date 05/07/19 06:14:22*
 %MOMM*%
 %LPD*%
+G01*
 G04 APERTURE LIST*
 %ADD10C,0.150000*%
 G04 APERTURE END LIST*
