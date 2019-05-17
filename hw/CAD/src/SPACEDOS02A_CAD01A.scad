@@ -7,7 +7,7 @@ krabicka_z=10;  //38
 krabicka_otvor_hrana=9.5;
 
 //Rozmery casty modulu
-pcb_x=110;
+pcb_x=111;
 pcb_y=6;
 
 baterka_x=73;
@@ -22,15 +22,21 @@ SD_karta_y=13;
 SD_karta_mensi_x=12;
 SD_karta_mensi_y=7.5;
 
-dioda_x=24.5;
+dioda_x=25.5;
 dioda_y=4.5;
 
-difference(){
+SPACEDOS02A_CAD01A();
 
-KRABICKA();
-    translate([1.5,19.5,-0.5]) 
-MODUL();    
-    } 
+module SPACEDOS02A_CAD01A()
+    {
+    difference(){
+
+        KRABICKA();
+            translate([1,19.5,-0.5]) 
+                MODUL();    
+                } 
+    }
+
 
 module KRABICKA()
     {
@@ -47,8 +53,8 @@ module KRABICKA()
         translate([0,krabicka_y-krabicka_otvor_hrana,-0.5]) 
             cube([krabicka_otvor_hrana,krabicka_otvor_hrana,krabicka_z+1],center=false);
     
-        translate([krabicka_x-krabicka_otvor_hrana,krabicka_y-krabicka_otvor_hrana,-0.5]) 
-            cube([krabicka_otvor_hrana,krabicka_otvor_hrana,krabicka_z+1],center=false);
+        translate([krabicka_x-krabicka_otvor_hrana,krabicka_y-krabicka_otvor_hrana-12-0.5]) 
+            cube([krabicka_otvor_hrana,krabicka_otvor_hrana+20,krabicka_z+1],center=false);
 
 
                 }
@@ -78,16 +84,24 @@ module MODUL()
     translate([pcb_x-SD_karta_x-SD_karta_mensi_x,-SD_karta_y,-0.5]) 
         cube([SD_karta_x,SD_karta_y,krabicka_z+1],center=false);
         
-      //SD karta mensi otvor
+    //SD karta mensi otvor
     translate([pcb_x-SD_karta_mensi_x,-SD_karta_mensi_y,-0.5]) 
         cube([SD_karta_mensi_x,SD_karta_mensi_y,krabicka_z+1],center=false);  
      
-  //vyrez levy horni
-   translate([-2,7,-0.5]) 
+    //vyrez levy horni
+    translate([-2,7,-0.5]) 
        cube([24,60,krabicka_z+1],center=false);  
         
          //vyrez levy dolni
-   translate([-2,-21,-0.5]) 
+    translate([-2,-21,-0.5]) 
         cube([55,12.5,krabicka_z+1],center=false);  
+     
+   //vyrez pravy dolni
+    translate([-2,-21,-0.5]) 
+        cube([krabicka_x+4,6,krabicka_z+1],center=false);     
+        
+       //vyrez pravy horni
+    translate([-2,7,-0.5]) 
+       cube([24,60,krabicka_z+1],center=false);    
     
      }

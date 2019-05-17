@@ -1,0 +1,5 @@
+use <../src/SPACEDOS02A_CAD01A.scad>
+
+
+
+SPACEDOS02A_CAD01A();
