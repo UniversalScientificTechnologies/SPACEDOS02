@@ -2,7 +2,7 @@
 //Rozmery kovové krabicky vnitrni
 krabicka_x=113;
 krabicka_y=58;
-krabicka_z=10;  //38
+krabicka_z=35;  //35
 
 krabicka_otvor_hrana=9.5;
 
@@ -16,11 +16,11 @@ baterka_y=37;
 konektor_x=12.5;
 konektor_y=12;
 
-SD_karta_x=42;
+SD_karta_x=43;
 SD_karta_y=13;
 
 SD_karta_mensi_x=12;
-SD_karta_mensi_y=7.5;
+SD_karta_mensi_y=8.5;
 
 dioda_x=25.5;
 dioda_y=4.5;
