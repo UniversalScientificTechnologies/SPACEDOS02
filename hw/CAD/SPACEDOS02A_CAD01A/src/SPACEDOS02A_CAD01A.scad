@@ -2,7 +2,7 @@
 //Rozmery kovové krabicky vnitrni
 krabicka_x=113;
 krabicka_y=58;
-krabicka_z=35;  //35
+krabicka_z2=35;  //35
 
 krabicka_otvor_hrana=9.5;
 
@@ -25,20 +25,23 @@ SD_karta_mensi_y=8.5;
 dioda_x=25.5;
 dioda_y=4.5;
 
-SPACEDOS02A_CAD01A();
+SPACEDOS02A_CAD01A(krabicka_z2);
 
-module SPACEDOS02A_CAD01A()
+
+module SPACEDOS02A_CAD01A(krabicka_z1)
     {
     difference(){
 
-        KRABICKA();
+        KRABICKA(krabicka_z1);
             translate([1,19.5,-0.5]) 
-                MODUL();    
+                MODUL(krabicka_z1);    
                 } 
     }
+    
 
 
-module KRABICKA()
+
+module KRABICKA(krabicka_z)
     {
     difference(){
         cube([krabicka_x,krabicka_y,krabicka_z],center=false);
@@ -61,7 +64,7 @@ module KRABICKA()
     }   
 
 
-module MODUL()
+module MODUL(krabicka_z)
     {
 
     //pcb
