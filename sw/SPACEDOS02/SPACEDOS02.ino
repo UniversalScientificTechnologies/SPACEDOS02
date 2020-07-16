@@ -1,5 +1,5 @@
-#define DEBUG // Please comment it if you are not debugging
-String githash = "f157c1d";
+//#define DEBUG // Please comment it if you are not debugging
+String githash = "035f894";
 String FWversion = "S01";
 #define ZERO 260  // 1st channel without noise
 
@@ -281,7 +281,7 @@ void setup()
       dataFile.close();
   
       digitalWrite(LED_yellow, HIGH);  // Blink for Dasa
-      Serial.println(dataString);  // print SN to terminal 
+      Serial.println(dataString);  // print to terminal 
       digitalWrite(LED_yellow, LOW);          
     }  
     // if the file isn't open, pop up an error:
@@ -306,6 +306,7 @@ void setup()
   // waiting for launch
 #ifdef DEBUG
   for(uint8_t n=0; n<(1); n++) 
+    //delay(1000ul*60ul*60ul*24ul); // waiting one day
     delay(1000ul*10ul); // waiting a while
 #else
   for(uint8_t n=0; n<(30+30+14+12); n++) // in days
@@ -333,7 +334,6 @@ void setup()
     {
       Serial.println("#Card failed, or not present");
       // don't do anything more:
-      return;
     }
   
     // open the file. note that only one file can be open at a time,
