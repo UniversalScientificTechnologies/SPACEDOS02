@@ -1,6 +1,7 @@
-//#define DEBUG // Please comment it if you are not debugging
 String githash = "035f894";
 String FWversion = "S01";
+#define LAUNCH  1 // Number of days to launch
+//!!! #define LAUNCH  30+30+14+12 // Number of days to launch
 #define ZERO 260  // 1st channel without noise
 
 /*
@@ -27,8 +28,13 @@ RESET  0   PB0
 
 LED
 ---
-LED_yellow  23  PC7         // LED for Dasa
+LED_yellow  23  PC7         // LED for Dasa (not connected in SPACEDOS)
 
+Startup Delay
+-------------
+JUMPER  19 PC3    // Selection of delayed start
+                  // H = Delayed start
+                  // L = Immediate start
 
                      Mighty 1284p    
                       +---\/---+
@@ -79,6 +85,7 @@ boolean SDClass::begin(uint32_t clock, uint8_t csPin) {
 #define MISO        6    // PB6
 #define SCK         7    // PB7
 #define INT         20   // PC4
+#define JUMPER      19   // PC3
 
 #define CHANNELS 512 // number of channels in buffer for histogram, including negative numbers
 
@@ -144,7 +151,7 @@ void setup()
 
   DDRA = 0b11111100;
   PORTA = 0b00000000;  // SDcard Power OFF
-  DDRC = 0b11101100;
+  DDRC = 0b11110100;
   PORTC = 0b00000000;  // SDcard Power OFF
   DDRD = 0b11111100;
   PORTD = 0b00000000;  // SDcard Power OFF
@@ -302,17 +309,21 @@ void setup()
   disablePower(POWER_TIMER1);
   disablePower(POWER_TIMER2);
   disablePower(POWER_TIMER3);
-  
-  // waiting for launch
-#ifdef DEBUG
-  for(uint8_t n=0; n<(1); n++) 
-    //delay(1000ul*60ul*60ul*24ul); // waiting one day
-    delay(1000ul*10ul); // waiting a while
-#else
-  for(uint8_t n=0; n<(30+30+14+12); n++) // in days
-    delay(1000ul*60ul*60ul*24ul); // waiting one day
-#endif
 
+  // waiting for launch
+  if (digitalRead(JUMPER)==HIGH)
+  {
+    // H = Delayed start
+   for(uint8_t n=0; n<(LAUNCH); n++) 
+      delay(1000ul*60ul*60ul*24ul); // waiting one day    
+  }
+  else
+  {
+    // L = Immediate start
+    for(uint8_t n=0; n<(1); n++) 
+      delay(1000ul*10ul); // waiting a while    
+  }
+  
   // enable power of peripherials
   enablePower(POWER_ADC);
   enablePower(POWER_SPI);
@@ -569,12 +580,12 @@ void loop()
     PORTB = 0b00000001;  // SDcard Power OFF
     disablePower(POWER_SPI);
 
-#ifdef DEBUG
-#else
-    dataString.remove(80); 
-#endif
+    if (digitalRead(JUMPER)==LOW)
+    {
+      dataString.remove(80); // Remove debug output in the flight mode
+    }
     digitalWrite(LED_yellow, HIGH);  // Blink for Dasa
     Serial.println(dataString);  // print to terminal (additional dummy time in DEBUG mode)
-    digitalWrite(LED_yellow, LOW);          
+    digitalWrite(LED_yellow, LOW);              
   }       
 }
