@@ -1,7 +1,6 @@
-String githash = "035f894";
+String githash = "808689c";
 String FWversion = "S01";
-#define LAUNCH  1 // Number of days to launch
-//!!! #define LAUNCH  30+30+14+12 // Number of days to launch
+#define LAUNCH  30+30+14+12 // Number of days to launch
 #define ZERO 260  // 1st channel without noise
 
 /*
