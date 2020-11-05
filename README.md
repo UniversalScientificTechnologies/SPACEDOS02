@@ -11,6 +11,6 @@
 * Deposited energy range from 200 keV to 12 MeV
 * Energy measurement resolution < 50 keV/channel
 * Power supply - battery 3.6 V LS 33600 
-* Storage - SDcard
+* Data storage media - Standard size SDcard
 * H x W  x  L - 60mm x 38mm x 111 mm  
 
