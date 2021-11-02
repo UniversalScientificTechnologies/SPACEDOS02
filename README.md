@@ -1,8 +1,11 @@
 # SPACEDOS02A
+
+Miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02) dosimeters for use on board of manned spacecrafts. 
+
 ![SPACEDOS02A device from bottom side](doc/src/img/SPACEDOS02A_bottom.jpg "PCB")
 ![SPACEDOS02A device from top side](doc/src/img/SPACEDOS02A_top.jpg "PCB")
 
-**Technical parameters are following:** 
+## Technical parameters
 
 * Silicon PIN diode detector with 60 mm³ detection volume
 * Measurement environment - atmosphere > 70 kPa
