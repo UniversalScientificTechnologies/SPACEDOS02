@@ -17,4 +17,4 @@ Miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScie
 * Data storage media - Standard size SDcard
 * H x W  x  L - 60mm x 38mm x 111 mm  
 
-The device can be purchased from [Universal Scientific Technologies s.r.o](http://www.ust.cz). Contact us by [email](sale@ust.cz) for a commercial quotation.
+The device can be purchased from [Universal Scientific Technologies s.r.o](http://www.ust.cz). Contact us by email sale@ust.cz for a commercial quotation.
