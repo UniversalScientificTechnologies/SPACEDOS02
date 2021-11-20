@@ -7,11 +7,11 @@ Miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScie
 
 The device is in the use onboard ISS. The following pictures shows the processed data from flight. Here is radiation map, where the [South Atlantic Anomaly](https://en.wikipedia.org/wiki/South_Atlantic_Anomaly) is clearly visible.
 
-![ISS radiation map](/doc/img/ISS_radiation_map.png)
+![ISS radiation map](/doc/src/img/ISS_radiation_map.png)
 
 The following spectrum is cumulative sum of the all measured particles. 
 
-![ISS radiation spectra](/doc/img/iss_flight_spectra.png)
+![ISS radiation spectra](/doc/src/img/iss_flight_spectra.png)
 
 
 ## Technical parameters
