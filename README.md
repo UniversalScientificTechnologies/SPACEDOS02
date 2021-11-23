@@ -1,6 +1,6 @@
 # SPACEDOS02A
 
-Miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02) dosimeters for use on board of manned spacecrafts.
+SPACEDOS is a miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02) dosimeters for use on board of manned spacecrafts.
 
 ![SPACEDOS02A device from bottom side](doc/src/img/SPACEDOS02A_bottom.jpg "PCB")
 ![SPACEDOS02A device from top side](doc/src/img/SPACEDOS02A_top.jpg "PCB")
