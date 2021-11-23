@@ -24,6 +24,7 @@ The following spectrum is cumulative sum of the all measured particles.
 * Energy measurement resolution < 50 keV/channel
 * Power supply - battery 3.6 V LS 33600
 * Data storage media - Standard size SDcard
+* Radiation durability 50mGy - currently limited by durability of storage media
 * H x W  x  L - 60mm x 38mm x 111 mm  
 
 The device can be purchased from [Universal Scientific Technologies s.r.o](http://www.ust.cz). Contact us by email sale@ust.cz for a commercial quotation.
