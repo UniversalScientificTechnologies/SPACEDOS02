@@ -83,7 +83,6 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -94,6 +93,8 @@
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
+      "rule_severitieslegacy_courtyards_overlap": true,
+      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
@@ -340,7 +341,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SPACEDOS02B_PCB01A.kicad_pro",
+    "filename": "SPACEDOS02A_PCB01A.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -408,19 +409,19 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "SPACEDOS02A_PCB01A.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "module.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
       "default_bus_thickness": 12.0,
       "default_line_thickness": 6.0,
-      "default_text_size": 50.0,
+      "default_text_size": 60.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
@@ -429,16 +430,16 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "Pcbnew",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
@@ -448,7 +449,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "../../../doc/assets/templates/KiCAD/page_layout.kicad_wks",
+    "page_layout_descr_file": "module.kicad_wks",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
@@ -457,7 +458,7 @@
   },
   "sheets": [
     [
-      "7c232f05-9664-49f0-99e6-4d9669e5c6b7",
+      "2a3597c1-3788-4718-9400-76d4f2a58dd5",
       ""
     ],
     [

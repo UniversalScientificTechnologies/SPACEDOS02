@@ -518,7 +518,7 @@
       (libsource 
         (lib Reference_Voltage) 
         (part ISL21070CIH320Z-TK) 
-        (description "2.0V 25μA Micropower Voltage Reference, SOT-23")) 
+        (description "2.0V 25ÎĽA Micropower Voltage Reference, SOT-23")) 
       (sheetpath 
         (names /) 
         (tstamps /)) 
@@ -2114,7 +2114,7 @@
       (aliases 
         (alias ISL21070CIH320Z-TK) 
         (alias ISL21070CIH325Z-TK)) 
-      (description "0.6V 25μA Micropower Voltage Reference, SOT-23") 
+      (description "0.6V 25ÎĽA Micropower Voltage Reference, SOT-23") 
       (docs http://www.intersil.com/content/dam/Intersil/documents/fn75/fn7599.pdf) 
       (footprints 
         (fp SOT?23*)) 

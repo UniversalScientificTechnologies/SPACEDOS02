@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -38,6 +38,7 @@
       9,
       10,
       11,
+      12,
       13,
       14,
       15,
@@ -66,7 +67,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "SPACEDOS02B_PCB01A.kicad_prl",
+    "filename": "SPACEDOS02A_PCB01A.kicad_prl",
     "version": 3
   },
   "project": {
