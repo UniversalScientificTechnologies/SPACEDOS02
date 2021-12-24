@@ -3080,6 +3080,15 @@
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc54e5a"
       (reference "#PWR0125") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/d731d43a-eac4-4e7c-88b1-e99132222286"
+      (reference "#PWR0126") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/c105aa78-22fa-412d-a9a2-0a21aa50cf12"
+      (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/f1e7a0c0-7a5c-42ce-8786-da2a917c2d89"
+      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b2b60eb"
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
@@ -3326,6 +3335,9 @@
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c58939a"
       (reference "F2") (unit 1) (value "100mA") (footprint "Mlab_R:SMD-0805")
     )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/2de3b3ad-e0a4-4a18-88c5-8f86af13872f"
+      (reference "J1") (unit 1) (value "SM08B-GHS-TB") (footprint "Connector_JST:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal")
+    )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c594c24"
       (reference "J2") (unit 1) (value "HEADER_2x01_PARALLEL") (footprint "Mlab_Pin_Headers:Straight_1x02")
     )
@@ -3361,6 +3373,9 @@
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd0b3c8"
       (reference "J13") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/ce80ec5e-dc23-4e7e-a7bc-ee8ebb35eac5"
+      (reference "J14") (unit 1) (value "SM06B-GHS-TB") (footprint "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b1e7269"
       (reference "J19") (unit 1) (value "HEADER_2x01_PARALLEL") (footprint "Mlab_Pin_Headers:Straight_2x01")
@@ -3419,8 +3434,20 @@
     (path "/00000000-0000-0000-0000-00005b3bd0ff"
       (reference "R13") (unit 1) (value "2k2") (footprint "Mlab_R:SMD-0805")
     )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/2b9e0279-a89c-42cc-a464-b8917b2e7f5d"
+      (reference "R14") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-00005c613d02"
       (reference "R15") (unit 1) (value "4k7") (footprint "Mlab_R:SMD-0805")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/a7b914e4-acff-410c-878c-fac0e954edef"
+      (reference "R16") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/fb505f56-b83a-49aa-b738-62d68b64f251"
+      (reference "R17") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/c035a3aa-22cf-40e6-b642-01b60063044a"
+      (reference "R18") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005c6165de"
       (reference "R19") (unit 1) (value "4k7") (footprint "Mlab_R:SMD-0805")
