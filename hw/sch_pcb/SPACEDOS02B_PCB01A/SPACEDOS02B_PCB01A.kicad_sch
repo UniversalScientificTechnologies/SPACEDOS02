@@ -3080,15 +3080,6 @@
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc54e5a"
       (reference "#PWR0125") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc665a4"
-      (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc6d8ef"
-      (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc6d8f5"
-      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b2b60eb"
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
@@ -3110,9 +3101,6 @@
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005c6d5917"
       (reference "#PWR0135") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc95ef0"
-      (reference "#PWR0136") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c589381"
       (reference "#PWR0137") (unit 1) (value "GND") (footprint "")
     )
@@ -3128,9 +3116,6 @@
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c5954e0"
       (reference "#PWR0141") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a377"
-      (reference "#PWR0142") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005c6d5fef"
       (reference "#PWR0143") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -3145,15 +3130,6 @@
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005c6e197b"
       (reference "#PWR0147") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a398"
-      (reference "#PWR0148") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a3a2"
-      (reference "#PWR0149") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a3e2"
-      (reference "#PWR0150") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/031c9fe6-c5be-4200-9313-6c7dc3c7c72e"
       (reference "#PWR0151") (unit 1) (value "GND") (footprint "")
@@ -3269,17 +3245,11 @@
     (path "/00000000-0000-0000-0000-00005c614d24"
       (reference "C21") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
     )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc6d8e1"
-      (reference "C22") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
-    )
     (path "/00000000-0000-0000-0000-00005c616680"
       (reference "C23") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005c616902"
       (reference "C24") (unit 1) (value "1uF") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc6d8e7"
-      (reference "C25") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b1f6794"
       (reference "C26") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
@@ -3302,9 +3272,6 @@
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c6d0ee7"
       (reference "C32") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
     )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a382"
-      (reference "C33") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
-    )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b36fe27"
       (reference "C34") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
     )
@@ -3313,9 +3280,6 @@
     )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c5fb0d4"
       (reference "C36") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a38c"
-      (reference "C37") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/7e4f9d30-a6fe-43a8-9769-41199ea0958c"
       (reference "C38") (unit 1) (value "15pF") (footprint "Mlab_R:SMD-0805")
@@ -3362,9 +3326,6 @@
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c58939a"
       (reference "F2") (unit 1) (value "100mA") (footprint "Mlab_R:SMD-0805")
     )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005ccd373e"
-      (reference "J1") (unit 1) (value "MCC-SD") (footprint "Mlab_CON:MCC-SD")
-    )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c594c24"
       (reference "J2") (unit 1) (value "HEADER_2x01_PARALLEL") (footprint "Mlab_Pin_Headers:Straight_1x02")
     )
@@ -3401,50 +3362,11 @@
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd0b3c8"
       (reference "J13") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
     )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd51c0c"
-      (reference "J14") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd52458"
-      (reference "J15") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd52ac6"
-      (reference "J16") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd52651"
-      (reference "J17") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd5290c"
-      (reference "J18") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
-    )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b1e7269"
       (reference "J19") (unit 1) (value "HEADER_2x01_PARALLEL") (footprint "Mlab_Pin_Headers:Straight_2x01")
     )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd6cb81"
-      (reference "J20") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a3f8"
-      (reference "J21") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
-    )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b253fc7"
       (reference "J22") (unit 1) (value "HEADER_2x03") (footprint "Mlab_Pin_Headers:SMD_2x03")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a402"
-      (reference "J23") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a420"
-      (reference "J24") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a40c"
-      (reference "J25") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a416"
-      (reference "J26") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a42f"
-      (reference "J27") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cda8350"
-      (reference "J28") (unit 1) (value "SD_Card-FPS009-4200-0") (footprint "Mlab_CON:FPS009-4200-0")
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b1f6a96"
       (reference "L1") (unit 1) (value "10uH - LQH32CN100K23L") (footprint "Mlab_R:SMD-1210")
@@ -3497,20 +3419,8 @@
     (path "/00000000-0000-0000-0000-00005b3bd0ff"
       (reference "R13") (unit 1) (value "2k2") (footprint "Mlab_R:SMD-0805")
     )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc7b51b"
-      (reference "R14") (unit 1) (value "100") (footprint "Mlab_R:SMD-0805")
-    )
     (path "/00000000-0000-0000-0000-00005c613d02"
       (reference "R15") (unit 1) (value "4k7") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc7b75c"
-      (reference "R16") (unit 1) (value "100") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc7b7ae"
-      (reference "R17") (unit 1) (value "100") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc7b806"
-      (reference "R18") (unit 1) (value "100") (footprint "Mlab_R:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005c6165de"
       (reference "R19") (unit 1) (value "4k7") (footprint "Mlab_R:SMD-0805")
@@ -3526,18 +3436,6 @@
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b1e1a11"
       (reference "R23") (unit 1) (value "10k") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a3b2"
-      (reference "R24") (unit 1) (value "100") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a3bc"
-      (reference "R25") (unit 1) (value "100") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a3c6"
-      (reference "R26") (unit 1) (value "100") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a3d0"
-      (reference "R27") (unit 1) (value "100") (footprint "Mlab_R:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005b39c1e6"
       (reference "U1") (unit 1) (value "OPA2314") (footprint "Mlab_IO:SOIC-8_3.9x4.9mm_Pitch1.27mm")

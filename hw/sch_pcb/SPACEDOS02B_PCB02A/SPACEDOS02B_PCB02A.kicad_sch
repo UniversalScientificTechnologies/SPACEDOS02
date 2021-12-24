@@ -1,0 +1,92 @@
+(kicad_sch (version 20210621) (generator eeschema)
+
+  (uuid 2a3597c1-3788-4718-9400-76d4f2a58dd5)
+
+  (paper "A4")
+
+  (title_block
+    (title "NAME")
+    (date "%F")
+    (rev "REV")
+    (company "Mlab www.mlab.cz")
+    (comment 1 "VERSION")
+    (comment 2 "Short description \\nTwo lines are maximum")
+    (comment 3 "nickname <email@example.com>")
+    (comment 4 "BSD")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 142.24 83.82) (size 21.59 8.89) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005c4aedd8)
+    (property "Název listu" "cpu" (id 0) (at 142.24 82.9814 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Soubor listu" "cpu.kicad_sch" (id 1) (at 142.24 93.3962 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/00000000-0000-0000-0000-00005c4aedd8" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a377"
+      (reference "#PWR0142") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a398"
+      (reference "#PWR0148") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a3a2"
+      (reference "#PWR0149") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a3e2"
+      (reference "#PWR0150") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a382"
+      (reference "C33") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a38c"
+      (reference "C37") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a3f8"
+      (reference "J21") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a402"
+      (reference "J23") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a420"
+      (reference "J24") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a40c"
+      (reference "J25") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a416"
+      (reference "J26") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a42f"
+      (reference "J27") (unit 1) (value "HEADER_1x01") (footprint "Mlab_Pin_Headers:Straight_1x01")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cda8350"
+      (reference "J28") (unit 1) (value "SD_Card-FPS009-4200-0") (footprint "Mlab_CON:FPS009-4200-0")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a3b2"
+      (reference "R24") (unit 1) (value "100") (footprint "Mlab_R:SMD-0805")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a3bc"
+      (reference "R25") (unit 1) (value "100") (footprint "Mlab_R:SMD-0805")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a3c6"
+      (reference "R26") (unit 1) (value "100") (footprint "Mlab_R:SMD-0805")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a3d0"
+      (reference "R27") (unit 1) (value "100") (footprint "Mlab_R:SMD-0805")
+    )
+  )
+)
