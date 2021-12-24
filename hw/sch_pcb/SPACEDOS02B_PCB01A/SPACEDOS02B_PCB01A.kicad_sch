@@ -3155,6 +3155,9 @@
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a3e2"
       (reference "#PWR0150") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/031c9fe6-c5be-4200-9313-6c7dc3c7c72e"
+      (reference "#PWR0151") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c6c71cf"
       (reference "#PWR0152") (unit 1) (value "+5V") (footprint "")
     )
@@ -3163,6 +3166,9 @@
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b36fe2e"
       (reference "#PWR0154") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/9c202023-4d94-492a-bdf7-04f5bb5fd88b"
+      (reference "#PWR0155") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b38c9b3"
       (reference "#PWR0156") (unit 1) (value "GND") (footprint "")
@@ -3311,11 +3317,17 @@
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cd8a38c"
       (reference "C37") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
     )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/7e4f9d30-a6fe-43a8-9769-41199ea0958c"
+      (reference "C38") (unit 1) (value "15pF") (footprint "Mlab_R:SMD-0805")
+    )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b3a9d6d"
       (reference "C39") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b1d7340"
       (reference "C40") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/bcb58cf8-a690-4311-960c-2fa2e89d146f"
+      (reference "C41") (unit 1) (value "15pF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c6d0eb3"
       (reference "C42") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
@@ -3551,9 +3563,6 @@
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc41663"
       (reference "U6") (unit 1) (value "AT24CS64-SSHM") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/6521b553-dd91-4455-a9a4-2046991a4706"
-      (reference "U7") (unit 1) (value "IR4302") (footprint "Package_DFN_QFN:Infineon_PQFN-44-31-5EP_7x7mm_P0.5mm")
-    )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c6d0eac"
       (reference "U8") (unit 1) (value "TPS613222ADBV") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
@@ -3562,6 +3571,9 @@
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b36b76c"
       (reference "U11") (unit 1) (value "PCF85263A") (footprint "Mlab_IO:TSSOP-10_3x3mm_Pitch0.5mm")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/dd3d6d5f-51af-4a06-b57d-aea9895cf705"
+      (reference "Y1") (unit 1) (value "1,8432MHz") (footprint "Crystal:Crystal_HC49-U_Horizontal")
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b36b778"
       (reference "Y2") (unit 1) (value "ABS07-120-32.768KHZ-T") (footprint "Mlab_XTAL:ABS07")

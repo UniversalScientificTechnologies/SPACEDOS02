@@ -63,11 +63,11 @@
       35,
       36
     ],
-    "visible_layers": "003f1f4_80000000",
+    "visible_layers": "003f1f4_80000001",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "SPACEDOS02A_PCB01A.kicad_prl",
+    "filename": "SPACEDOS02B_PCB01A.kicad_prl",
     "version": 3
   },
   "project": {
