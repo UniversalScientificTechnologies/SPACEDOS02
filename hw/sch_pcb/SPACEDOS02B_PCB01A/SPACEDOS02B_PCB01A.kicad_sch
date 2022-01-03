@@ -46,7 +46,8 @@
             (xy -5.08 -5.08)
             (xy -5.08 5.08)
           )
-          (stroke (width 0.254)) (fill (type background))
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
         (pin power_in line (at -2.54 7.62 270) (length 3.81)
           (name "V+" (effects (font (size 1.27 1.27))))
@@ -100,14 +101,16 @@
             (xy -2.032 -0.762)
             (xy 2.032 -0.762)
           )
-          (stroke (width 0.508)) (fill (type none))
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -2.032 0.762)
             (xy 2.032 0.762)
           )
-          (stroke (width 0.508)) (fill (type none))
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "C_1_1"
@@ -145,24 +148,28 @@
       )
       (symbol "CP_0_1"
         (rectangle (start -2.286 0.508) (end 2.286 1.016)
-          (stroke (width 0)) (fill (type none))
-        )
-        (rectangle (start 2.286 -0.508) (end -2.286 -1.016)
-          (stroke (width 0)) (fill (type outline))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -1.778 2.286)
             (xy -0.762 2.286)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -1.27 2.794)
             (xy -1.27 1.778)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (rectangle (start 2.286 -0.508) (end -2.286 -1.016)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
         )
       )
       (symbol "CP_1_1"
@@ -201,21 +208,24 @@
             (xy -2.54 1.27)
             (xy -2.54 -1.27)
           )
-          (stroke (width 0.2032)) (fill (type none))
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -2.032 1.778)
             (xy -1.524 1.778)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 0)
             (xy -2.54 0)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -223,7 +233,8 @@
             (xy -2.032 1.778)
             (xy -2.032 2.286)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -232,7 +243,8 @@
             (xy -2.54 0)
             (xy 0 -1.27)
           )
-          (stroke (width 0.2032)) (fill (type none))
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -242,7 +254,8 @@
             (xy -0.762 1.778)
             (xy -0.254 1.778)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "D_Photo_1_1"
@@ -280,7 +293,8 @@
       )
       (symbol "R_0_1"
         (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254)) (fill (type none))
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "R_1_1"
@@ -321,7 +335,8 @@
             (xy -5.08 -5.08)
             (xy -5.08 5.08)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "AD8692_1_1"
@@ -384,7 +399,8 @@
       )
       (symbol "TS5A4594_0_1"
         (rectangle (start -6.35 6.35) (end 5.08 -6.35)
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "TS5A4594_1_1"
@@ -427,7 +443,9 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "HOLE_0_1"
-        (circle (center 0 0) (radius 0.635) (stroke (width 0.254)) (fill (type none)))
+        (circle (center 0 0) (radius 0.635) (stroke (width 0.254))           (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
       )
       (symbol "HOLE_1_1"
         (pin input line (at 1.27 0 180) (length 0.635)
@@ -460,7 +478,8 @@
       )
       (symbol "ISL21070CIH320Z-TK_0_1"
         (rectangle (start -5.08 5.08) (end 5.08 -5.08)
-          (stroke (width 0.254)) (fill (type background))
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type background))
         )
       )
       (symbol "ISL21070CIH320Z-TK_1_1"
@@ -503,21 +522,24 @@
             (xy -0.762 1.27)
             (xy 0 2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 0)
             (xy 0 2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 2.54)
             (xy 0.762 1.27)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "+3.3V_1_1"
@@ -552,21 +574,24 @@
             (xy -0.762 1.27)
             (xy 0 2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 0)
             (xy 0 2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 2.54)
             (xy 0.762 1.27)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "+5V_1_1"
@@ -605,7 +630,8 @@
             (xy -1.27 -1.27)
             (xy 0 -1.27)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "GND_1_1"
@@ -3434,20 +3460,8 @@
     (path "/00000000-0000-0000-0000-00005b3bd0ff"
       (reference "R13") (unit 1) (value "2k2") (footprint "Mlab_R:SMD-0805")
     )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/2b9e0279-a89c-42cc-a464-b8917b2e7f5d"
-      (reference "R14") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
     (path "/00000000-0000-0000-0000-00005c613d02"
       (reference "R15") (unit 1) (value "4k7") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/a7b914e4-acff-410c-878c-fac0e954edef"
-      (reference "R16") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/fb505f56-b83a-49aa-b738-62d68b64f251"
-      (reference "R17") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/c035a3aa-22cf-40e6-b642-01b60063044a"
-      (reference "R18") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005c6165de"
       (reference "R19") (unit 1) (value "4k7") (footprint "Mlab_R:SMD-0805")

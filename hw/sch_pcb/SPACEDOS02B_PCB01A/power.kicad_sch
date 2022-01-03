@@ -26,38 +26,44 @@
       )
       (symbol "Battery_Cell_0_1"
         (rectangle (start -2.286 1.778) (end 2.286 1.524)
-          (stroke (width 0)) (fill (type outline))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
         )
         (rectangle (start -1.5748 1.1938) (end 1.4732 0.6858)
-          (stroke (width 0)) (fill (type outline))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
         )
         (polyline
           (pts
             (xy 0 0.762)
             (xy 0 0)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 1.778)
             (xy 0 2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0.508 3.429)
             (xy 1.524 3.429)
           )
-          (stroke (width 0.254)) (fill (type none))
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 1.016 3.937)
             (xy 1.016 2.921)
           )
-          (stroke (width 0.254)) (fill (type none))
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "Battery_Cell_1_1"
@@ -94,17 +100,21 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "L_Small_0_1"
-        (arc (start 0 -2.032) (end 0 -1.016) (radius (at 0 -1.524) (length 0.508) (angles -89.9 89.9))
-          (stroke (width 0)) (fill (type none))
+        (arc (start 0 -2.032) (mid 0.508 -1.524) (end 0 -1.016)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
-        (arc (start 0 -1.016) (end 0 0) (radius (at 0 -0.508) (length 0.508) (angles -89.9 89.9))
-          (stroke (width 0)) (fill (type none))
+        (arc (start 0 -1.016) (mid 0.508 -0.508) (end 0 0)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
-        (arc (start 0 0) (end 0 1.016) (radius (at 0 0.508) (length 0.508) (angles -89.9 89.9))
-          (stroke (width 0)) (fill (type none))
+        (arc (start 0 0) (mid 0.508 0.508) (end 0 1.016)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
-        (arc (start 0 1.016) (end 0 2.032) (radius (at 0 1.524) (length 0.508) (angles -89.9 89.9))
-          (stroke (width 0)) (fill (type none))
+        (arc (start 0 1.016) (mid 0.508 1.524) (end 0 2.032)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "L_Small_1_1"
@@ -138,24 +148,31 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "HEADER_2x01_PARALLEL_0_1"
-        (circle (center -1.27 0) (radius 0.381) (stroke (width 0)) (fill (type none)))
-        (circle (center 1.27 0) (radius 0.381) (stroke (width 0)) (fill (type none)))
         (rectangle (start -2.54 1.27) (end 2.54 -1.27)
-          (stroke (width 0)) (fill (type background))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+        (circle (center -1.27 0) (radius 0.381) (stroke (width 0))           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -1.651 0)
             (xy -2.54 0)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -0.889 0)
             (xy 0.889 0)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (circle (center 1.27 0) (radius 0.381) (stroke (width 0))           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "HEADER_2x01_PARALLEL_1_1"
@@ -187,7 +204,8 @@
       )
       (symbol "TPS61322xA_0_1"
         (rectangle (start -5.08 3.81) (end 7.62 -6.35)
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "TPS61322xA_1_1"
@@ -227,14 +245,16 @@
             (xy -2.032 -0.762)
             (xy 2.032 -0.762)
           )
-          (stroke (width 0.508)) (fill (type none))
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy -2.032 0.762)
             (xy 2.032 0.762)
           )
-          (stroke (width 0.508)) (fill (type none))
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue-SPACEDOS01B_PCB01A-rescue_1_1"
@@ -270,14 +290,16 @@
             (xy -1.27 1.27)
             (xy -1.27 -1.27)
           )
-          (stroke (width 0.2032)) (fill (type none))
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 1.27 0)
             (xy -1.27 0)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -286,7 +308,8 @@
             (xy -1.27 0)
             (xy 1.27 1.27)
           )
-          (stroke (width 0.2032)) (fill (type none))
+          (stroke (width 0.2032) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "D-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue-SPACEDOS01B_PCB01A-rescue_1_1"
@@ -315,24 +338,28 @@
       )
       (symbol "EMI_Filter_C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue-SPACEDOS01B_PCB01A-rescue_0_1"
         (rectangle (start -1.651 1.524) (end 1.524 2.032)
-          (stroke (width 0)) (fill (type outline))
-        )
-        (rectangle (start 1.524 3.048) (end -1.651 3.556)
-          (stroke (width 0)) (fill (type outline))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
         )
         (polyline
           (pts
             (xy -2.54 2.54)
             (xy 2.54 2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 0)
             (xy 0 1.778)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (rectangle (start 1.524 3.048) (end -1.651 3.556)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
         )
       )
       (symbol "EMI_Filter_C-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue-SPACEDOS01B_PCB01A-rescue_1_1"
@@ -368,14 +395,16 @@
       )
       (symbol "Polyfuse-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue-SPACEDOS01B_PCB01A-rescue-SPACEDOS01B_PCB01A-rescue_0_1"
         (rectangle (start -0.762 2.54) (end 0.762 -2.54)
-          (stroke (width 0.254)) (fill (type none))
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 2.54)
             (xy 0 -2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
@@ -384,7 +413,8 @@
             (xy 1.524 -1.524)
             (xy 1.524 -2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "Polyfuse-device-DATALOGGER01A-rescue-CCP2019V01A-rescue-SPACEDOS01A_PCB01A-rescue-SPACEDOS01B_PCB01A-rescue-SPACEDOS01B_PCB01A-rescue_1_1"
@@ -423,21 +453,24 @@
             (xy -0.762 1.27)
             (xy 0 2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 0)
             (xy 0 2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 2.54)
             (xy 0.762 1.27)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "+3.3V_1_1"
@@ -472,21 +505,24 @@
             (xy -0.762 1.27)
             (xy 0 2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 0)
             (xy 0 2.54)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
         (polyline
           (pts
             (xy 0 2.54)
             (xy 0.762 1.27)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "+5V_1_1"
@@ -525,7 +561,8 @@
             (xy -1.27 -1.27)
             (xy 0 -1.27)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "GND_1_1"
@@ -555,13 +592,16 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "VDD_0_1"
-        (circle (center 0 1.905) (radius 0.635) (stroke (width 0)) (fill (type none)))
         (polyline
           (pts
             (xy 0 0)
             (xy 0 1.27)
           )
-          (stroke (width 0)) (fill (type none))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (circle (center 0 1.905) (radius 0.635) (stroke (width 0))           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
         )
       )
       (symbol "VDD_1_1"
