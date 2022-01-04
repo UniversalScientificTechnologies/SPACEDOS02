@@ -497,58 +497,6 @@
         )
       )
     )
-    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V" (id 1) (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -687,14 +635,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b95aeac7-4d39-4490-a545-080337e9450d)
   )
-  (wire (pts (xy 25.4 22.86) (xy 25.4 24.13))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 432a57dc-b1d7-44bc-acc4-a138175a7601)
-  )
-  (wire (pts (xy 25.4 24.13) (xy 35.56 24.13))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid df0b6386-9d86-4895-b786-021f86c39560)
-  )
   (wire (pts (xy 25.4 110.49) (xy 38.1 110.49))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid bec710ce-3005-47e3-b9d9-2bda2695ca13)
@@ -714,6 +654,10 @@
   (wire (pts (xy 34.29 182.88) (xy 34.29 181.61))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid cca4894c-86c5-4aba-9509-e54983b2d74b)
+  )
+  (wire (pts (xy 35.56 24.13) (xy 34.29 24.13))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid d8249470-2f88-4c46-bc32-3bd41cc40379)
   )
   (wire (pts (xy 35.56 24.13) (xy 46.99 24.13))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1438,6 +1382,20 @@
     (uuid a03df7fb-d753-4f75-ab61-787ae80f1498)
   )
 
+  (global_label "POWER_ANALOG_3V3" (shape input) (at 34.29 24.13 180) (fields_autoplaced)
+    (effects (font (size 1.524 1.524)) (justify right))
+    (uuid c84e69a5-3762-4c90-84fe-e9bfbc98a33f)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 8.6411 24.0348 0)
+      (effects (font (size 1.524 1.524)) (justify right) hide)
+    )
+  )
+  (global_label "POWER_ANALOG_3V3" (shape input) (at 114.3 30.48 90) (fields_autoplaced)
+    (effects (font (size 1.524 1.524)) (justify left))
+    (uuid 291629a4-9412-4bf9-8e64-23d344f10c28)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 114.3952 4.8311 90)
+      (effects (font (size 1.524 1.524)) (justify left) hide)
+    )
+  )
   (global_label "PB0" (shape input) (at 267.97 130.81 0) (fields_autoplaced)
     (effects (font (size 1.524 1.524)) (justify left))
     (uuid 55844252-ca74-46a6-b5d7-d66608c14ff4)
@@ -1516,38 +1474,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 216c4665-8035-419f-8bd9-c11e95fdb111))
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 25.4 22.86 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-00005c6997a5)
-    (property "Reference" "#PWR0106" (id 0) (at 25.4 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (id 1) (at 25.781 18.4658 0))
-    (property "Footprint" "" (id 2) (at 25.4 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 25.4 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0ed605b0-90b6-4d9d-bc6f-1690f3c65967))
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 114.3 30.48 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-00005c699bf2)
-    (property "Reference" "#PWR0107" (id 0) (at 114.3 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (id 1) (at 114.681 26.0858 0))
-    (property "Footprint" "" (id 2) (at 114.3 30.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 114.3 30.48 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 48a58243-18d6-420f-bfbe-a149cd387343))
   )
 
   (symbol (lib_id "power:GND") (at 34.29 182.88 0) (unit 1)
@@ -3046,12 +2972,6 @@
     (path "/00000000-0000-0000-0000-00005c65f243"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c6997a5"
-      (reference "#PWR0106") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c699bf2"
-      (reference "#PWR0107") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005c634bea"
       (reference "#PWR0108") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -3105,9 +3025,6 @@
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc54e5a"
       (reference "#PWR0125") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/d731d43a-eac4-4e7c-88b1-e99132222286"
-      (reference "#PWR0126") (unit 1) (value "+5V") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/c105aa78-22fa-412d-a9a2-0a21aa50cf12"
       (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
@@ -3187,9 +3104,6 @@
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b3a9d74"
       (reference "#PWR0158") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c6d0ec0"
-      (reference "#PWR0161") (unit 1) (value "VDD") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c6d0ec8"
       (reference "#PWR0163") (unit 1) (value "GND") (footprint "")
     )
@@ -3213,6 +3127,15 @@
     )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c5d8d8d"
       (reference "#PWR0174") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c69bcb4/13f5e65a-bc3e-44e6-9299-9163c7f13f78"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c69bcb4/7aa5f446-b73d-4976-97b6-35d0fab45f42"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c69bcb4/a3a3b2cd-d10b-4600-9ee2-29a111b3bec7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005cc376a8"
       (reference "BT1") (unit 1) (value "BX0037") (footprint "Mlab_Batery:BX0037_nez_sroubu")
@@ -3352,6 +3275,15 @@
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c589368"
       (reference "C55") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
     )
+    (path "/00000000-0000-0000-0000-00005c69bcb4/07fd7f88-d3ee-4c7f-8871-56d908141d09"
+      (reference "C?") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
+    )
+    (path "/00000000-0000-0000-0000-00005c69bcb4/2df070f1-98d9-42aa-bbea-aa9f4064b7be"
+      (reference "C?") (unit 1) (value "1uF") (footprint "Mlab_R:SMD-0603")
+    )
+    (path "/00000000-0000-0000-0000-00005c69bcb4/757d3c7b-0129-4776-97ce-a5ec06b9ac70"
+      (reference "C?") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0603")
+    )
     (path "/00000000-0000-0000-0000-00005c80a3e9"
       (reference "D1") (unit 1) (value "S2744-09") (footprint "Mlab_D:HAMAMATSU_S2744-09")
     )
@@ -3414,6 +3346,9 @@
     )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c6d0ea6"
       (reference "L3") (unit 1) (value "DFE252012P-4R7M") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/0293d1f7-b050-4324-afda-8e53bf70b6fd"
+      (reference "L?") (unit 1) (value "L") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005b47dba2"
       (reference "M6") (unit 1) (value "BMI-S-210-F") (footprint "Mlab_Mechanical:BMI-S-210-F")
@@ -3510,6 +3445,9 @@
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b36b76c"
       (reference "U11") (unit 1) (value "PCF85263A") (footprint "Mlab_IO:TSSOP-10_3x3mm_Pitch0.5mm")
+    )
+    (path "/00000000-0000-0000-0000-00005c69bcb4/9026c369-5914-4d03-a792-0a84a97d77cc"
+      (reference "U?") (unit 1) (value "MIC5504-3.3YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/dd3d6d5f-51af-4a06-b57d-aea9895cf705"
       (reference "Y1") (unit 1) (value "1,8432MHz") (footprint "Crystal:Crystal_HC49-U_Horizontal")
