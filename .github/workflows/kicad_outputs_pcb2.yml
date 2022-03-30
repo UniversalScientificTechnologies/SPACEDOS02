@@ -231,10 +231,10 @@ jobs:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v3.0.0
     
-    - name: Remove old manufarturing data
-      run: | 
-        rm -r hw/cam_profi || true
-        rw -r doc/gen || true
+   # - name: Remove old manufarturing data
+   #   run: | 
+   #     rm -r hw/cam_profi || true
+   #     rw -r doc/gen || true
     
     - name: Extract to right position
       run: |
