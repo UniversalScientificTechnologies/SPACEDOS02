@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
   
 env:
-  schema: "hw/sch_pcb/SPACEDOS02B_PCB02A/*.kicad_sch"
-  board: "hw/sch_pcb/SPACEDOS02B_PCB02A/*.kicad_pcb"
+  schema: "hw/sch_pcb/SPACEDOS02B_PCB02A/SPACEDOS02B_PCB02A.kicad_sch"
+  board: "hw/sch_pcb/SPACEDOS02B_PCB02A/SPACEDOS02B_PCB02A.kicad_pcb"
   dir: "hw/out"
   kibot: "doc/assets/kibot"
 
