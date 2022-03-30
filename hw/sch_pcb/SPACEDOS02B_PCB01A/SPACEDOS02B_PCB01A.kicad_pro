@@ -83,6 +83,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -414,7 +415,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "module.kicad_wks"
+    "page_layout_descr_file": "../../../doc/assets/templates/KiCAD/page_layout.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,

@@ -3420,7 +3420,7 @@
   (symbol (lib_id "Device:L") (at 186.69 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0293d1f7-b050-4324-afda-8e53bf70b6fd)
-    (property "Reference" "L?" (id 0) (at 186.69 61.5654 90))
+    (property "Reference" "L2" (id 0) (at 186.69 61.5654 90))
     (property "Value" "L" (id 1) (at 186.69 64.3405 90))
     (property "Footprint" "" (id 2) (at 186.69 66.04 0)
       (effects (font (size 1.27 1.27)) hide)

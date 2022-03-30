@@ -3050,6 +3050,12 @@
     (path "/00000000-0000-0000-0000-00005c65f243"
       (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005c69bcb4/13f5e65a-bc3e-44e6-9299-9163c7f13f78"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c69bcb4/7aa5f446-b73d-4976-97b6-35d0fab45f42"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005c634bea"
       (reference "#PWR0108") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -3103,6 +3109,9 @@
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc54e5a"
       (reference "#PWR0125") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005c69bcb4/a3a3b2cd-d10b-4600-9ee2-29a111b3bec7"
+      (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/c105aa78-22fa-412d-a9a2-0a21aa50cf12"
       (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
@@ -3206,15 +3215,6 @@
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c5d8d8d"
       (reference "#PWR0174") (unit 1) (value "VDD") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005c69bcb4/13f5e65a-bc3e-44e6-9299-9163c7f13f78"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c69bcb4/7aa5f446-b73d-4976-97b6-35d0fab45f42"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-00005c69bcb4/a3a3b2cd-d10b-4600-9ee2-29a111b3bec7"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005cc376a8"
       (reference "BT1") (unit 1) (value "BX0037") (footprint "Mlab_Batery:BX0037_nez_sroubu")
     )
@@ -3281,11 +3281,17 @@
     (path "/00000000-0000-0000-0000-00005c614d24"
       (reference "C21") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
     )
+    (path "/00000000-0000-0000-0000-00005c69bcb4/07fd7f88-d3ee-4c7f-8871-56d908141d09"
+      (reference "C22") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
+    )
     (path "/00000000-0000-0000-0000-00005c616680"
       (reference "C23") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
     )
     (path "/00000000-0000-0000-0000-00005c616902"
       (reference "C24") (unit 1) (value "1uF") (footprint "Mlab_R:SMD-0805")
+    )
+    (path "/00000000-0000-0000-0000-00005c69bcb4/757d3c7b-0129-4776-97ce-a5ec06b9ac70"
+      (reference "C25") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b1f6794"
       (reference "C26") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
@@ -3307,6 +3313,9 @@
     )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c6d0ee7"
       (reference "C32") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
+    )
+    (path "/00000000-0000-0000-0000-00005c69bcb4/2df070f1-98d9-42aa-bbea-aa9f4064b7be"
+      (reference "C33") (unit 1) (value "1uF") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b36fe27"
       (reference "C34") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
@@ -3352,15 +3361,6 @@
     )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c589368"
       (reference "C55") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/00000000-0000-0000-0000-00005c69bcb4/07fd7f88-d3ee-4c7f-8871-56d908141d09"
-      (reference "C?") (unit 1) (value "10uF") (footprint "Mlab_R:SMD-0805")
-    )
-    (path "/00000000-0000-0000-0000-00005c69bcb4/2df070f1-98d9-42aa-bbea-aa9f4064b7be"
-      (reference "C?") (unit 1) (value "1uF") (footprint "Mlab_R:SMD-0603")
-    )
-    (path "/00000000-0000-0000-0000-00005c69bcb4/757d3c7b-0129-4776-97ce-a5ec06b9ac70"
-      (reference "C?") (unit 1) (value "100nF") (footprint "Mlab_R:SMD-0603")
     )
     (path "/00000000-0000-0000-0000-00005c80a3e9"
       (reference "D1") (unit 1) (value "S2744-09") (footprint "Mlab_D:HAMAMATSU_S2744-09")
@@ -3422,11 +3422,11 @@
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b1f6a96"
       (reference "L1") (unit 1) (value "10uH - LQH32CN100K23L") (footprint "Mlab_R:SMD-1210")
     )
+    (path "/00000000-0000-0000-0000-00005c4aedd8/0293d1f7-b050-4324-afda-8e53bf70b6fd"
+      (reference "L2") (unit 1) (value "L") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c6d0ea6"
       (reference "L3") (unit 1) (value "DFE252012P-4R7M") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-00005c4aedd8/0293d1f7-b050-4324-afda-8e53bf70b6fd"
-      (reference "L?") (unit 1) (value "L") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005b47dba2"
       (reference "M6") (unit 1) (value "BMI-S-210-F") (footprint "Mlab_Mechanical:BMI-S-210-F")
@@ -3515,6 +3515,9 @@
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005cc41663"
       (reference "U6") (unit 1) (value "AT24CS64-SSHM") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
+    (path "/00000000-0000-0000-0000-00005c69bcb4/9026c369-5914-4d03-a792-0a84a97d77cc"
+      (reference "U7") (unit 1) (value "MIC5504-3.3YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    )
     (path "/00000000-0000-0000-0000-00005c69bcb4/00000000-0000-0000-0000-00005c6d0eac"
       (reference "U8") (unit 1) (value "TPS613222ADBV") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
@@ -3523,9 +3526,6 @@
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/00000000-0000-0000-0000-00005b36b76c"
       (reference "U11") (unit 1) (value "PCF85263A") (footprint "Mlab_IO:TSSOP-10_3x3mm_Pitch0.5mm")
-    )
-    (path "/00000000-0000-0000-0000-00005c69bcb4/9026c369-5914-4d03-a792-0a84a97d77cc"
-      (reference "U?") (unit 1) (value "MIC5504-3.3YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/00000000-0000-0000-0000-00005c4aedd8/dd3d6d5f-51af-4a06-b57d-aea9895cf705"
       (reference "Y1") (unit 1) (value "1,8432MHz") (footprint "Crystal:Crystal_HC49-U_Horizontal")
