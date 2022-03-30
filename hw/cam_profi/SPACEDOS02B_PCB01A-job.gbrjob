@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "6.0.4-6f826c9f35~116~ubuntu20.04.1"
     },
-    "CreationDate": "2022-03-30T14:52:51+00:00"
+    "CreationDate": "2022-03-30T15:14:45+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "SPACEDOS02B_PCB01A",
       "GUID": "53504143-4544-44f5-9330-32425f504342",
-      "Revision": "REV"
+      "Revision": "rev?"
     },
     "Size": {
       "X": 38.15,
