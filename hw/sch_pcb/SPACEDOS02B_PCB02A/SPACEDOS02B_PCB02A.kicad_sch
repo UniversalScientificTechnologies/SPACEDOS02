@@ -1,18 +1,13 @@
-(kicad_sch (version 20210621) (generator eeschema)
+(kicad_sch (version 20211123) (generator eeschema)
 
   (uuid 2a3597c1-3788-4718-9400-76d4f2a58dd5)
 
   (paper "A4")
 
   (title_block
-    (title "NAME")
+    (title "SPACEDOS02B - PCB02A")
     (date "%F")
-    (rev "REV")
-    (company "Mlab www.mlab.cz")
-    (comment 1 "VERSION")
-    (comment 2 "Short description \\nTwo lines are maximum")
-    (comment 3 "nickname <email@example.com>")
-    (comment 4 "BSD")
+    (company "UST")
   )
 
   (lib_symbols
@@ -23,10 +18,10 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-00005c4aedd8)
-    (property "Název listu" "cpu" (id 0) (at 142.24 82.9814 0)
+    (property "Sheet name" "cpu" (id 0) (at 142.24 82.9814 0)
       (effects (font (size 1.524 1.524)) (justify left bottom))
     )
-    (property "Soubor listu" "cpu.kicad_sch" (id 1) (at 142.24 93.3962 0)
+    (property "Sheet file" "cpu.kicad_sch" (id 1) (at 142.24 93.3962 0)
       (effects (font (size 1.524 1.524)) (justify left top))
     )
   )
