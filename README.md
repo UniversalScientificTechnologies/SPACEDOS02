@@ -26,3 +26,7 @@ The following spectrum is a cumulative sum of the all the measured particles.
 * Data storage media: Standard size SDcard
 * Radiation durability: 50mGy - currently limited by the durability of a storage media
 * Dimensions(HxWxL): 60mm x 38mm x 111 mm  
+
+Relevant scientific papers
+
+* [SPACEDOS: AN OPEN-SOURCE PIN DIODE DOSEMETER FOR APPLICATIONS IN SPACE](https://academic.oup.com/rpd/article-abstract/198/9-11/611/6673003?redirectedFrom=fulltext&login=false)
