@@ -27,6 +27,7 @@ The following spectrum is a cumulative sum of the all the measured particles.
 * Radiation durability: 50mGy - currently limited by the durability of a storage media
 * Dimensions(HxWxL): 60mm x 38mm x 111 mm  
 
-Relevant scientific papers
+Relevant scientific publications
 
 * [SPACEDOS: AN OPEN-SOURCE PIN DIODE DOSEMETER FOR APPLICATIONS IN SPACE](https://academic.oup.com/rpd/article-abstract/198/9-11/611/6673003?redirectedFrom=fulltext&login=false)
+* [SPACEDOS an open-source PIN diode dosimeter for applications in Space](https://indico.ujf.cas.cz/event/2/contributions/27/attachments/25/46/Po-1315-Kakona-774711333.pdf)
