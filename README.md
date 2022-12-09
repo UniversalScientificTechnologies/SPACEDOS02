@@ -1,6 +1,6 @@
 # SPACEDOS02A - PIN diode dosimeter for manned spacecraft 
 
-SPACEDOS is a miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02) dosimeter for use on board of manned spacecrafts.
+SPACEDOS is a miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02) dosimeter modified for use on board of manned spacecraft.
 
 ![SPACEDOS02A device from bottom side](doc/src/img/SPACEDOS02A_bottom.jpg "PCB")
 ![SPACEDOS02A device from top side](doc/src/img/SPACEDOS02A_top.jpg "PCB")
