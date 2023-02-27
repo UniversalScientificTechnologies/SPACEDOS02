@@ -16,16 +16,21 @@ The following spectrum is a cumulative sum of the all the measured particles.
 
 ## Technical parameters are as follows:
 
-* Silicon PIN diode detector with 60 mm³ detection volume
+* Silicon PIN diode detector with 10x20x0.3 ~ 60 mm³ detection volume
 * Measurement environment: atmosphere > 70 kPa
-* Measurement endurance: 90 days
-* Number of energy channels: 250
-* Deposited energy range: from 200 keV to 12 MeV
+* Measurement endurance: 120 days (4 months of measurement)
+* Number of energy channels: 240
+* Integration time: CUstomizable in wide range from miliseconds to minutes
+* Deposited energy range: from 180 keV to 8.5 MeV
 * Energy measurement resolution: < 50 keV/channel
+* Thermal stability: 1 channel per 12 °C
 * Power supply: battery 3.6 V LS 33600
-* Data storage media: Standard size SDcard
-* Radiation durability: 50mGy - currently limited by the durability of a storage media
-* Dimensions(HxWxL): 60mm x 38mm x 111 mm  
+* Power consumption: < 10 mW during measurement, < 120 mW during writing to SD card
+* Data storage media: Standard size SDcard, Industry-grade SLC  SD card
+* Interface: RS232/UART 3.3V TTL
+* Radiation durability: 50 mGy - currently limited by the durability of a storage media
+* Dimensions(HxWxL): 60mm x 39mm x 113 mm
+* Mass (including battery): 148 g 
 
 Relevant scientific publications
 
