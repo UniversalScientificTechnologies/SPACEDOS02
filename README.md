@@ -30,7 +30,7 @@ The following spectrum is a cumulative sum of the all the measured particles.
 * Interface: RS232/UART 3.3V TTL
 * Radiation durability: 50 mGy - currently limited by the durability of a storage media
 * Dimensions(HxWxL): 60mm x 39mm x 113 mm
-* Mass (including battery): 148 g 
+* Mass / (including battery): 58/148 g 
 
 Relevant scientific publications
 
