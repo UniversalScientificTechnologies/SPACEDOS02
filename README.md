@@ -1,17 +1,9 @@
 # SPACEDOS02B - UAV ready version
 
-Miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02) dosimeters for use on board of manned spacecrafts.
+Miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02) dosimeters for use on board unmanned vehicles.
 
-![SPACEDOS02A device from bottom side](doc/src/img/SPACEDOS02A_bottom.jpg "PCB")
-![SPACEDOS02A device from top side](doc/src/img/SPACEDOS02A_top.jpg "PCB")
+**Abandoned idea replaced by [AIRDOS03 instrument](https://github.com/UniversalScientificTechnologies/AIRDOS03), which is better suited for the UAV applications**
 
-The device is in the use onboard ISS. The following pictures shows the processed data from flight. Here is radiation map, where the [South Atlantic Anomaly](https://en.wikipedia.org/wiki/South_Atlantic_Anomaly) is clearly visible.
-
-![ISS radiation map](/doc/img/ISS_radiation_map.png)
-
-The following spectrum is cumulative sum of the all measured particles. 
-
-![ISS radiation spectra](/doc/img/iss_flight_spectra.png)
 
 
 ## Technical parameters
