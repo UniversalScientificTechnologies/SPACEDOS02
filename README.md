@@ -1,4 +1,4 @@
-# SPACEDOS02B - UAV ready version
+# SPACEDOS02 - UAV-ready variant
 
 Miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02) dosimeters for use on board unmanned vehicles.
 
