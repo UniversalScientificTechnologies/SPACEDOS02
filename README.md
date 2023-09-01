@@ -1,6 +1,6 @@
 # SPACEDOS02A - PIN diode dosimeter for manned spacecraft 
 
-SPACEDOS is a miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02) dosimeter modified for use on board of manned spacecraft.
+SPACEDOS is a miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02) dosimeter modified for use on board manned spacecraft.
 
 ![SPACEDOS02A device from bottom side](doc/src/img/SPACEDOS02A_bottom.jpg "PCB")
 ![SPACEDOS02A device from top side](doc/src/img/SPACEDOS02A_top.jpg "PCB")
@@ -9,18 +9,18 @@ The device is currently being used onboard ISS. The following pictures show the 
 
 ![ISS radiation map](/doc/src/img/ISS_radiation_map.png)
 
-The following spectrum is a cumulative sum of the all the measured particles. 
+The following spectrum is a cumulative sum of all the measured particles. 
 
 ![ISS radiation spectra](/doc/src/img/iss_flight_spectra.png)
 
 
 ## Technical parameters are as follows:
 
-* Silicon PIN diode detector with 10x20x0.3 ~ 60 mm³ detection volume
+* Silicon PIN diode detector with 0.22 x 10 x 20 ~ 44 mm³ detection volume
 * Measurement environment: atmosphere > 70 kPa
 * Measurement endurance: 120 days (4 months of measurement)
 * Number of energy channels: 240
-* Integration time: CUstomizable in wide range from miliseconds to minutes
+* Integration time: Customizable in a wide range from milliseconds to minutes
 * Deposited energy range: from 180 keV to 8.5 MeV
 * Energy measurement resolution: < 50 keV/channel
 * Thermal stability: 1 channel per 12 °C
