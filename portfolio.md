@@ -1,6 +1,6 @@
 ---
-title: "SPACEDOS02"
-excerpt: "SPACEDOS is a miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02) dosimeter for use on board of manned spacecraft."
+title: "Manned spacecraft dosimeter"
+excerpt: "SPACEDOS02 is a miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02) dosimeter designed for use on board of manned spacecraft."
 header:
   image: products/SPACEDOS02A/doc/src/img/SPACEDOS02A_bottom.jpg
   teaser: products/SPACEDOS02A/doc/src/img/SPACEDOS02A_bottom.jpg
