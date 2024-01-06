@@ -1,11 +1,11 @@
 # SPACEDOS02A - PIN diode dosimeter for manned spacecraft 
 
-SPACEDOS is a miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02) dosimeter modified for use on board manned spacecraft.
+SPACEDOS is a miniature and lightweight version of [AIRDOS02](https://github.com/UniversalScientificTechnologies/AIRDOS02) dosimeter modified for use onboard manned spacecraft.
 
 ![SPACEDOS02A device from bottom side](doc/src/img/SPACEDOS02A_bottom.jpg "PCB")
 ![SPACEDOS02A device from top side](doc/src/img/SPACEDOS02A_top.jpg "PCB")
 
-The device is currently being used onboard ISS. The following pictures show the processed data from the flight. Here is a radiation map, where the [South Atlantic Anomaly](https://en.wikipedia.org/wiki/South_Atlantic_Anomaly) is clearly visible.
+The device is currently being used onboard ISS. The following pictures show the processed data from the flight. Here is a radiation map, where the [South Atlantic Anomaly](https://en.wikipedia.org/wiki/South_Atlantic_Anomaly) is visible.
 
 ![ISS radiation map](/doc/src/img/ISS_radiation_map.png)
 
